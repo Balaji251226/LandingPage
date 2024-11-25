@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Landing Page</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="images/bg remove logo.png" alt="Logo">
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Services</a></li>
+        <li><a href="#services">Upcoming Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+  <script src="script.js"></script>
+
+    <!-- Hero Section -->
+  
+  <section class="hero">
+    <div class="hero-content">
+     <a href="#Home"></a> <h1>We Are Providing Services For Your Requirements</h1>
+      <div class="hero-buttons">
+        <a href="https://selectedfirms.co/companies/it-services-companies/usa" class="btn-primary">Explore More</a>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-description">Why choose us? Here’s what makes us special:</p>
+      <div class="features-grid">
+        <div class="feature">
+          <img src="images/cloud.webp" alt="cloud">
+          <h3>Cloud Backup Services</h3>
+          <p>The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems and programs</p>
+        </div>
+        <div class="feature">
+          <img src="images/monitor.png" alt="Monitor">
+          <h3>Monitoring Services</h3>
+          <p>A monitoring application does as it sounds: keeps an eye on servers, net traffic, communication, security, and/or anything needed by an enterprise</p>
+        </div>
+        <div class="feature">
+          <img src="images/backup.webp" alt="Backup">
+          <h3>Data Backup and Restoration</h3>
+          <p>Some providers offer data backup with cloud or others with external data centers.</p>
+        </div>
+        <div class="feature">
+          <img src="images/firewall.jpg" alt="Firewall">
+          <h3>Firewall Services</h3>
+          <p>Firewalls are a common, integral part of any cybersecurity plan. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Product Highlights Section  -->
+  <section class="product-highlights">
+    <div class="container">
+      <h2 class="section-title">Upcoming Services</h2>
+      <!-- <p class="section-description">Check out our top-rated products loved by customers.</p> -->
+      <div class="products-grid">
+        <div class="product">
+          <img src="images/mobile.png" alt="Product 1">
+          <h3>Mobile and Remote Networking</h3>
+          <p>Mobile and remote networking allows staff to work from mobile devices and/or remote devices, typically off-site from a physical location. Coincides with BYOD (bring your own device) policies. </p>
+          <a href="https://www.siemens.com/global/en/products/automation/industrial-communication/industrial-remote-communication/remote-networks.html" class="btn">Explore</a>
+        </div>
+        <div class="product">
+          <img src="images/communication.png" alt="Product 2">
+          <h3>Communication Management</h3>
+          <p>IT services handling all communication services often provide universal communication solution platforms for companies. A UC platform is a type of software incorporating all types of messaging, from chat, email, voice, video call, and even email.</p>
+          <a href="https://cmstelco.com/" class="btn">Explore</a>
+        </div>
+        <div class="product">
+          <img src="images/remote.webp" alt="Product 3">
+          <h3>Remote Support</h3>
+          <p>As the name implies, remote support allows for IT specialists to offer support services from a different location, sometimes controlling a device to assist with troubleshooting issues via the internet.</p>
+          <a href="https://anydesk.com/en/solutions/remote-support" class="btn">Explore</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+<!--
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <p class="section-description">Here’s why people love our products:</p>
+      <div class="testimonials-grid">
+        <div class="testimonial">
+          <p class="testimonial-text">
+            "The quality is amazing! Delivery was quick, and the support team was very helpful. Highly recommended!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://via.placeholder.com/80" alt="Customer 1">
+            <h3>John Doe</h3>
+            <p>Verified Customer</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            "Fantastic experience! The products exceeded my expectations. I’ll definitely be ordering again."
+          </p>
+          <div class="testimonial-author">
+            <img src="https://via.placeholder.com/80" alt="Customer 2">
+            <h3>Jane Smith</h3>
+            <p>Verified Customer</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">
+            "Great service and awesome products. I love the design and the attention to detail. Thank you!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://via.placeholder.com/80" alt="Customer 3">
+            <h3>Michael Lee</h3>
+            <p>Verified Customer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+  <!-- Newsletter Subscription Section -->
+
+  <section class="newsletter">
+    <div class="container">
+      <h2 class="section-title">Stay Updated</h2>
+      <p class="section-description">Subscribe to our newsletter and never miss an update!</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <p>We’re dedicated to providing the best service and products. Follow us for updates and offers.</p>
+        </div>
+        <!-- <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div> -->
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>Email: balajikg1203@gmail.com</p>
+          <p>Phone: +91 6374139554</p>
+          <p>Address: 2/84, Gandhiji Road, Chennai</p>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100030378011132&mibextid=ZbWKwL"><img src="images/facebook-removebg-preview.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
+            <a href="https://www.instagram.com/balaji___20_/?next=%2F"><img src="images/instagram-removebg-preview.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/balaji-k-g-9310302a0"><img src="images/linkedin-removebg-preview.png" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Balaji. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>
